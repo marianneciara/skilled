@@ -1,0 +1,23 @@
+.footer {
+    position: absolute;
+    bottom: 20px;
+    text-align: center;
+    left: 0;
+    right: 0;
+
+    @media (max-width: 767px) {
+        padding: 0 16px 0;
+    }
+
+    p {
+        font-size: 0.75rem;
+        font-weight: 300;
+        line-height: 1.7;
+
+        a {
+            color: #007991;
+            font-weight: 600;
+            text-decoration: none;
+        }
+    }
+}

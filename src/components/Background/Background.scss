@@ -1,0 +1,24 @@
+.background {
+    position: absolute;
+    height: 90%;
+    min-height: 690px;
+    max-height: 800px;
+    width: 100%;
+    background: linear-gradient(90deg, #007991, #78FFD6);
+    -webkit-mask-image:
+        -webkit-gradient(linear, center bottom, center top,
+        color-stop(0, rgba(0, 0, 0, 0)),
+        color-stop(0.09, rgba(0, 0, 0, 0.7)),
+        color-stop(0.15, rgba(0, 0, 0, 0.9)),
+        color-stop(0.2, rgba(0, 0, 0, 1)));
+
+    @media (max-width: 767px) {
+        min-height: 520px;
+        max-height: 520px;
+    }
+
+    @media (max-width: 480px) {
+        min-height: 620px;
+        max-height: 620px;
+    }
+}

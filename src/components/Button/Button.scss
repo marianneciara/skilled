@@ -1,0 +1,25 @@
+.btn {
+    border: 0;
+    height: 52px;
+    padding: 0 16px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 52px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all ease 0.3s;
+
+    &.primary {
+        color: #fff;
+        background-color: #FFC43B;
+
+        &:hover {
+            background-color: #eea600;
+        }
+    }
+
+    svg {
+        font-size: 1.5rem;
+        height: 52px;
+    }
+}
